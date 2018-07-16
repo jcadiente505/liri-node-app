@@ -1,1 +1,30 @@
-Added Content, 
+UserCommand: my-tweets:
+I am the Cocktail Guru!
+User Command: spotify-this-song all the small things 
+
+Artist Name: blink-182
+
+Song Name: All The Small Things
+
+Album Name: Enema Of The State
+
+Song Preview: null
+User Command: movie-this: Ace Ventura 
+
+Title: Ace Ventura: Pet Detective
+
+IMDB: 6.9
+
+Country: USA
+
+Plot: A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.
+
+Language: English
+
+Actors: Jim Carrey, Courteney Cox, Sean Young, Tone Loc
+
+Rotten Tomatoes: undefined
+
+Year: 1994
+
+
