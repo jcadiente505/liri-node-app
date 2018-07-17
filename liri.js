@@ -34,6 +34,10 @@ for (var i = 3; i < process.argv.length; i++) {
 // This will show your last 20 tweets and when they were created at in your terminal/bash window.
 function myTweets() {
 
+    if (!userInput) {
+        userInput = "CGuru505"
+    }
+
     var userName = { screen_name: userInput, count: 20 };
     console.log(userName)
     twitClient.get('statuses/user_timeline', userName, (error, tweets, response) => {
@@ -64,6 +68,9 @@ function spotifySong(input) {
         if (error) throw error;
     });
 
+    if (!userInput) {
+        userInput = "The Climb"
+    }
     // setting the spotify search function to look through returned song selection
     spotClient.search({ type: "track", query: userInput, limit: 1 }, (error, data) => {
         // * This will show the following information about the song in your terminal/bash window
@@ -106,6 +113,10 @@ function movieLook() {
     fs.appendFile('./log.txt', 'User Command: movie-this: ' + userInput + '\n', (error) => {
         if (error) throw error;
     });
+
+    if (!userInput) {
+        userInput = "Mr. Nobody"
+    }
 
     userInput = userInput.split(' ').join('+');
 
@@ -202,28 +213,13 @@ function doThis() {
 
 switch (userComm) {
     case "my-tweets":
-        if (userInput) {
-            myTweets();
-        }
-        else {
-            myTweets("CGuru505")
-        };
+        myTweets();
         break;
     case "spotify-this-song":
-        if (userInput) {
-            spotifySong();
-        }
-        else {
-            spotifySong("The Climb")
-        };
+        spotifySong();
         break;
     case "movie-this":
-        if (userInput) {
-            movieLook();
-        }
-        else {
-            movieLook("Mr. Nobody")
-        };
+        movieLook();
         break;
     case "do-what-it-says":
         doThis();
