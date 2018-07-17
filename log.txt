@@ -1,30 +1,20 @@
+
 UserCommand: my-tweets:
 I am the Cocktail Guru!
-User Command: spotify-this-song all the small things 
+User Command: do-what-it-says
 
-Artist Name: blink-182
+User Command: do-what-it-says
 
-Song Name: All The Small Things
+User Command: do-what-it-says
 
-Album Name: Enema Of The State
+User Command: do-what-it-says
 
-Song Preview: null
-User Command: movie-this: Ace Ventura 
+User Command: spotify-this-song i want it that way
 
-Title: Ace Ventura: Pet Detective
+Artist Name: Backstreet Boys
 
-IMDB: 6.9
+Song Name: I Want It That Way
 
-Country: USA
+Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=f13ca3fee0ca4283af1a1d63155d1e45
 
-Plot: A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.
-
-Language: English
-
-Actors: Jim Carrey, Courteney Cox, Sean Young, Tone Loc
-
-Rotten Tomatoes: undefined
-
-Year: 1994
-
-
+Album Name: The Hits--Chapter One

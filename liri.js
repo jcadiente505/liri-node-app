@@ -58,7 +58,7 @@ function myTweets() {
 };
 
 
-function spotifySong() {
+function spotifySong(input) {
 
     fs.appendFile('./log.txt', 'User Command: spotify-this-song ' + userInput + '\n', (error) => {
         if (error) throw error;
@@ -179,6 +179,7 @@ function doThis() {
             var cmdString = data.split(',');
             var command = cmdString[0].trim();
             var input = cmdString[1].trim();
+            userInput = input
 
             switch (command) {
                 case 'my-tweets':
